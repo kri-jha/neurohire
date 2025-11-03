@@ -1,0 +1,22 @@
+# Exclude unnecessary or heavy paths from Render build context
+**/node_modules/**
+**/.git/**
+**/.cache/**
+**/__pycache__/**
+**/.venv/**
+**/venv/**
+
+# Local artifacts
+*.log
+*.tmp
+*.DS_Store
+
+# Large ML artifacts
+backend/ml/models/*.joblib
+backend/ml/models/*.pkl
+backend/ml/models/*.pt
+backend/ml/models/*.h5
+
+# Duplicate nested copy of the project
+neurohire-master/**
+

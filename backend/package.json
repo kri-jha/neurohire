@@ -2,6 +2,9 @@
   "name": "neurohire-backend",
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=18 <21"
+  },
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
